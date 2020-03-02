@@ -77,8 +77,8 @@ public class PraktikumPBO extends Exception{
                         else{
                             System.out.println("Kerucutnya bisa dipakai menjadi topi");
                         }
-                    }catch(PraktikumPBO e){
-                        e.printStackTrace();
+                    }catch(PraktikumPBO p){
+                        p.printStackTrace();
                     }catch(Exception ee){
                         ee.printStackTrace();
                         System.out.println(ee.toString() + " // Error! Pastikan Input Angka");
