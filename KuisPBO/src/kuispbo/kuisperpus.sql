@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 15 Apr 2020 pada 02.48
+-- Waktu pembuatan: 15 Apr 2020 pada 03.04
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.2.28
 
@@ -44,7 +44,7 @@ CREATE TABLE `anggota` (
 --
 
 INSERT INTO `anggota` (`nis`, `nmsiswa`, `ttl`, `jk`, `agama`, `tdaftar`, `berlaku`, `kelas`) VALUES
-('121', 'Aga', '2000-12-20', 'Laki-Laki', 'Katolik', '2020-12-20', '2021-12-20', 'E'),
+('120', 'Oka', '2000-12-20', 'Perempuan', 'Kristen', '2004-02-20', '2005-02-20', 'K'),
 ('122', 'Ayu', '2000-02-02', 'Perempuan', 'Islam', '2020-01-01', '2022-02-02', 'C');
 
 -- --------------------------------------------------------
@@ -67,8 +67,8 @@ CREATE TABLE `buku` (
 
 INSERT INTO `buku` (`kdbuku`, `nmbuku`, `nmpengarang`, `nmpenerbit`, `thnterbit`) VALUES
 ('A0001', 'Buku Cerita', 'Song Geu-rim', 'Gambar Media', '2001'),
-('A0002', 'Dongeng Katak', 'penulissatu', 'penerbitsatu', '2007'),
-('A0003', 'buku tulis', 'penulisdua', 'penerbit terang', '2020');
+('A0006', 'Buku keren', 'Pengarang oke', 'Penerbit oke', '2001'),
+('C0003', 'Buku bergambar', 'Penulis Hebat', 'Penerbit Oke', '2020');
 
 -- --------------------------------------------------------
 
@@ -91,8 +91,9 @@ CREATE TABLE `karyawan` (
 --
 
 INSERT INTO `karyawan` (`nik`, `nmkaryawan`, `jk`, `golongan`, `jabatan`, `tunjangan`, `jmlgaji`) VALUES
+('120', 'oke', 'Laki-Laki', '3', 'staff', '300000', '800000'),
 ('122', 'ara', 'Perempuan', '5', 'honorer', '200000', '650000'),
-('123', 'ada', 'Laki-Laki', '2', 'supervisor', '500000', '900000');
+('211', 'teladan', 'Laki-Laki', '5', 'honorer', '200000', '650000');
 
 -- --------------------------------------------------------
 
@@ -116,7 +117,8 @@ CREATE TABLE `peminjaman` (
 --
 
 INSERT INTO `peminjaman` (`nopinjam`, `nis`, `kdbuku`, `tglpinjam`, `tglkembali`, `lmpinjam`, `denda`, `nik`) VALUES
-('1', '122', 'A0001', '2020-02-20', '2020-03-20', 0, 0, '122');
+('1', '122', 'A0001', '2020-02-20', '2020-03-20', 0, 0, '122'),
+('12', '120', 'A0001', '2020-02-20', '2020-03-20', 0, 0, '120');
 
 --
 -- Indexes for dumped tables
