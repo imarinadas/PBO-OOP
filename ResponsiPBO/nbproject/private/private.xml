@@ -3,15 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/HomeAdmin.java</file>
             <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/ResponsiPBO.java</file>
-            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/ViewUmum.java</file>
-            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/MVC_Pegawai.java</file>
-            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/ControllerPegawai.java</file>
-            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/LoginAdmin.java</file>
-            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/ViewPegawai.java</file>
-            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/MVC_Admin.java</file>
-            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/ModelResponsi.java</file>
+            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/ControllerAdmin.java</file>
+            <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/UpdatePegawai.java</file>
             <file>file:/C:/Users/w8/Documents/NetBeansProjects/ResponsiPBO/src/responsipbo/ViewAdmin.java</file>
         </group>
     </open-files>
